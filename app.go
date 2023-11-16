@@ -9,7 +9,7 @@ import (
 )
 
 func main() {
-        gistURL := "https://gist.githubusercontent.com/pingme998/edc9a762f113164334725a446da8ab88/raw/gistfile1.txt"
+        gistURL := "https://gist.githubusercontent.com/pingme998/edc9a762f113164334725a446da8ab88/raw/af0baa223d1fb3ed5046931aaab39b3355d9a8c1/gistfile1.txt"
         fileName := "run.sh"
 
         // Download Gist file
