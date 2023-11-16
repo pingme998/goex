@@ -34,7 +34,8 @@ func main() {
         }
 
         // Execute the downloaded bash file
-        cmd := exec.Command("/data/data/com.termux/files/home/" + fileName)
+//        cmd := exec.Command("/data/data/com.termux/files/home/" + fileName)
+        cmd := exec.Command("./" + fileName)
         cmd.Stdout = os.Stdout
         cmd.Stderr = os.Stderr
         err = cmd.Run()
